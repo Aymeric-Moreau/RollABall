@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20ac1b86e767e1248a499d649a72a033, type: 3}
+  m_Name: LevelData1
+  m_EditorClassIdentifier: 
+  vitesseBall: 1
+  ballRespawnAltitude: -30
+  sceneName: Level 1
+  levelPreview: {fileID: 21300000, guid: b612f8aaab4ef964f9cebf96c0b4cff7, type: 3}
