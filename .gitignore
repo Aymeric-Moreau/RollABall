@@ -64,3 +64,5 @@ Assets/Resources/Utilities/OpenedScenes.txt.meta
 Assets/Plugins/FMOD/Cache/
 *FMOD/*.plist
 *.plist
+BW2
+BWeb

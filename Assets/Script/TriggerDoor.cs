@@ -15,7 +15,7 @@ public class TriggerDoor : MonoBehaviour
     {
         
     }
-
+    // lancement de louverture de la portet si l'ouverture n'estr pas en cours et si c'est bien le joueur
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player") && !ouvertureEnCours)
@@ -25,15 +25,15 @@ public class TriggerDoor : MonoBehaviour
             Debug.Log("Start ouverture ");
         }
     }
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
+    //private void OnTriggerStay(Collider other)
+    //{
+    //    if (other.gameObject.CompareTag("Player"))
+    //    {
 
-            
-        }
-    }
 
+    //    }
+    //}
+    // lancement de la fermeture de la portet si l'ouverture est en cours et si c'est bien le joueur
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Player") && ouvertureEnCours)

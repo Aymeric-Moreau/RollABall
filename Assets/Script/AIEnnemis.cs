@@ -11,9 +11,9 @@ public class AIEnnemis : MonoBehaviour
 
     void Start()
     {
-        // on sauvegarde le rigidbody et le player
+        // on sauvegarde le rigidbody 
         rb = GetComponent<Rigidbody>();
-        Player = GameManager.instance.ball;
+        
     }
 
     void FixedUpdate()
