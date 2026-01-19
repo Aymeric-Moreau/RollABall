@@ -2090,7 +2090,7 @@ Transform:
   m_GameObject: {fileID: 1258157838}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.09, y: 3.51, z: -28.58}
+  m_LocalPosition: {x: -16.09, y: 4.94, z: -28.58}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2108,19 +2108,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e1b266881034ac44b42761ee9a0b6eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listePosition:
-  - position: {x: -16.09, y: 0, z: -48.56}
-    rotation: {x: 0.38268346, y: 0, z: 0, w: 0.9238795}
-    scale: {x: 10, y: 10, z: 2}
-    duration: 3
-  - position: {x: -16.09, y: 17.57, z: -48.56}
-    rotation: {x: 0.6408563, y: 0.29883623, z: -0.29883623, w: 0.6408563}
-    scale: {x: 10, y: 2, z: 12}
-    duration: 5
-  - position: {x: -16.09, y: 3.51, z: -28.58}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-    scale: {x: 10, y: 10, z: 10}
-    duration: 3
+  ciblePosition: {x: -16.09, y: 11.05, z: -28.58}
+  cibleRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
+  cibleScale: {x: 2, y: 0, z: 2}
+  duration: 5
 --- !u!1 &1331637252
 GameObject:
   m_ObjectHideFlags: 0
